@@ -1,0 +1,20 @@
+[
+  {
+    "id": "sony-wh1000xm5",
+    "name": "Sony WH-1000XM5",
+    "category": "koptelefoons",
+    "listings": [
+      { "shop": "coolblue", "url": "https://www.coolblue.nl/product/905648/sony-wh-1000xm5-black.html", "selector": "[data-testid='current-price']" },
+      { "shop": "bol", "url": "https://www.bol.com/nl/nl/p/sony-wh-1000xm5-draadloze-koptelefoon-met-noise-cancelling-zwart/9300000096972714/" },
+      { "shop": "expert", "url": "https://www.expert.nl/sony-wh-1000xm5-zwart-372606928" }
+    ]
+  },
+  {
+    "id": "lg-oled-c4-55",
+    "name": "LG OLED55C4",
+    "category": "televisies",
+    "listings": [
+      { "shop": "mediamarkt", "url": "https://www.mediamarkt.nl/nl/product/_lg-oled55c46laaeu-2024-1807476.html" }
+    ]
+  }
+]

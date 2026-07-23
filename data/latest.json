@@ -1,0 +1,27 @@
+{
+  "updatedAt": "2026-07-23T13:31:26.841Z",
+  "products": {
+    "sony-wh1000xm5": [
+      {
+        "price": 199.45,
+        "currency": "EUR",
+        "inStock": true,
+        "source": "json-ld",
+        "ts": "2026-07-23T13:29:07.934Z",
+        "productId": "sony-wh1000xm5",
+        "shop": "bol",
+        "url": "https://www.bol.com/nl/nl/p/sony-wh-1000xm5-draadloze-koptelefoon-met-noise-cancelling-zwart/9300000096972714/"
+      },
+      {
+        "price": 229,
+        "currency": "EUR",
+        "inStock": true,
+        "source": "json-ld",
+        "ts": "2026-07-23T13:29:07.934Z",
+        "productId": "sony-wh1000xm5",
+        "shop": "expert",
+        "url": "https://www.expert.nl/sony-wh-1000xm5-zwart-372606928"
+      }
+    ]
+  }
+}

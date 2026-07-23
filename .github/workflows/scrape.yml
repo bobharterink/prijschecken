@@ -1,0 +1,38 @@
+name: Dagelijkse prijscheck
+
+on:
+  schedule:
+    # 06:12 UTC, dus rond 08:12 Belgische zomertijd.
+    # Een oneven tijdstip omdat het hele uur bij GitHub druk is en runs vertraagd worden.
+    - cron: '12 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - run: npx playwright install --with-deps chromium
+
+      - run: npm run scrape
+
+      - name: Data committen
+        if: always()
+        run: |
+          git config user.name "prijscheck-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "Prijzen $(date -u +%Y-%m-%d)"
+          git push
