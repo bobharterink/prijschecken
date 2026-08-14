@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T07:49:43.728Z",
+  "updatedAt": "2026-08-14T07:48:12.744Z",
   "products": {
     "sony-wh1000xm5": [
       {
@@ -17,7 +17,7 @@
         "currency": "EUR",
         "inStock": true,
         "source": "json-ld",
-        "ts": "2026-08-13T07:49:12.108Z",
+        "ts": "2026-08-14T07:47:36.946Z",
         "productId": "sony-wh1000xm5",
         "shop": "coolblue",
         "url": "https://www.coolblue.nl/product/905648/sony-wh-1000xm5-black.html"
@@ -27,7 +27,7 @@
         "currency": "EUR",
         "inStock": true,
         "source": "json-ld",
-        "ts": "2026-08-13T07:49:12.108Z",
+        "ts": "2026-08-14T07:47:36.946Z",
         "productId": "sony-wh1000xm5",
         "shop": "expert",
         "url": "https://www.expert.nl/sony-wh-1000xm5-zwart-372606928"
