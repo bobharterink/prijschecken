@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T13:39:45.740Z",
+  "updatedAt": "2026-09-01T11:35:30.260Z",
   "products": {
     "sony-wh1000xm5": [
       {
@@ -13,11 +13,11 @@
         "url": "https://www.bol.com/nl/nl/p/sony-wh-1000xm5-draadloze-koptelefoon-met-noise-cancelling-zwart/9300000096972714/"
       },
       {
-        "price": 232,
+        "price": 206,
         "currency": "EUR",
         "inStock": true,
         "source": "json-ld",
-        "ts": "2026-08-31T13:39:09.804Z",
+        "ts": "2026-09-01T11:34:52.230Z",
         "productId": "sony-wh1000xm5",
         "shop": "coolblue",
         "url": "https://www.coolblue.nl/product/905648/sony-wh-1000xm5-black.html"
@@ -27,7 +27,7 @@
         "currency": "EUR",
         "inStock": true,
         "source": "json-ld",
-        "ts": "2026-08-31T13:39:09.804Z",
+        "ts": "2026-09-01T11:34:52.230Z",
         "productId": "sony-wh1000xm5",
         "shop": "expert",
         "url": "https://www.expert.nl/sony-wh-1000xm5-zwart-372606928"
